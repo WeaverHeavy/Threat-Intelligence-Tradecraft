@@ -1,5 +1,5 @@
 # **Threat Intelligence Tradecraft**
-![Banner](https://imgur.com/a/faLxo)
+![alt text](https://imgur.com/zFiHJiZ.jpg "Banner")
 
 ## Intent: 
  * Create an opensource/free curriculum for learning threat intelligence tradecraft to include:
