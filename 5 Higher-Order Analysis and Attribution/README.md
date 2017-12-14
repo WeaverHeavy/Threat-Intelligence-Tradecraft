@@ -4,10 +4,10 @@ A core component of intelligence analysis at any level is the ability to defeat 
 
 ## Exercises
 
-* [E20-Identifying Cognitive Biases in Media Reporting]
-* [E21-Analysis of Intelligence Reports]
-* [E22-Capstone Exercise: Debating and Attributing Election  Influencing - Part 1]
-* [E23-Capstone Exercise: Debating and Attributing Election Influencing - Part 2]
+* [E20-Identifying Cognitive Biases in Media Reporting](https://github.com/WeaveryHeavy/Threat-Intelligence-Tradecraft/blob/master/5%20Higher-Order%20Analysis%20and%20Attribution/Exercises/E20-Identifying%20Cognitive%20Biases%20in%20Media%20Reporting)
+* [E21-Analysis of Intelligence Reports](https://github.com/WeaveryHeavy/Threat-Intelligence-Tradecraft/blob/master/5%20Higher-Order%20Analysis%20and%20Attribution/Exercises/E21-Analysis%20of%20Intelligence%20Reports)
+* [E22-Capstone Exercise: Debating and Attributing Election  Influencing - Part 1](https://github.com/WeaveryHeavy/Threat-Intelligence-Tradecraft/blob/master/5%20Higher-Order%20Analysis%20and%20Attribution/Exercises/E22-Capstone%20Exercise:%20Debating%20and%20Attributing%20Election%20%20Influencing%20-%20Part%201)
+* [E23-Capstone Exercise: Debating and Attributing Election Influencing - Part 2](https://github.com/WeaveryHeavy/Threat-Intelligence-Tradecraft/blob/master/5%20Higher-Order%20Analysis%20and%20Attribution/Exercises/E23-Capstone%20Exercise:%20Debating%20and%20Attributing%20Election%20Influencing%20-%20Part%202)
 
 
 ## Topics
