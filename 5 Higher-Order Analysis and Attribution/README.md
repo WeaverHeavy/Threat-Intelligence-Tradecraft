@@ -4,10 +4,10 @@ A core component of intelligence analysis at any level is the ability to defeat 
 
 ## Exercises
 
-* [Identifying Cognitive Biases in Media Reporting]
-* [Analysis of Intelligence Reports]
-* [Capstone Exercise: Debating and Attributing Election  Influencing - Part 1]
-* [Capstone Exercise: Debating and Attributing Election Influencing - Part 2]
+* [E20-Identifying Cognitive Biases in Media Reporting]
+* [E21-Analysis of Intelligence Reports]
+* [E22-Capstone Exercise: Debating and Attributing Election  Influencing - Part 1]
+* [E23-Capstone Exercise: Debating and Attributing Election Influencing - Part 2]
 
 
 ## Topics

@@ -3,10 +3,10 @@
 Intrusion analysis is at the heart of threat intelligence. It is a fundamental skillset for any security practitioner who wants to use a more complete approach to addressing security. Two of the most commonly used models for assessing adversary intrusions are the "kill chain" and the "Diamond Model". These models serve as a framework and structured scheme for analyzing intrusions and extracting patterns such as adversary behaviors and malicious indicators. In this section students will participate in and be walked through multi-phase intrusions from initial notification of adversary activity to the completion of analysis of the event. The section also highlights the importance of this process in terms of structuring and defining adversary campaigns.
 
 ## Exercises
-* [Using Structured Analytical Techniques]
-* [Consuming Along the Sliding Scale]
-* [Enriching and Understanding Limitations]
-* [Strategic Threat Modeling]
+* [E5-Using Structured Analytical Techniques]
+* [E6-Consuming Along the Sliding Scale]
+* [E7-Enriching and Understanding Limitations]
+* [E8-Strategic Threat Modeling]
 
 
 ## Topics
