@@ -24,15 +24,15 @@ Cyber threat intelligence is a rapidly growing field. However, intelligence was 
   * [Cyber Threat Intelligence and Its Role]
   * [Expectation of Organizations and Analysts]
   * [Four Methods of Threat Detection]
-* [Threat Intelligence Consumption](Threat-Intelligence-Tradecraft/1 Cyber Threat Intelligence and Requirements/Topics/04-Positioning the Team to Generate Intelligence/)
+* [Threat Intelligence Consumption](https://github.com/WeaveryHeavy/Threat-Intelligence-Tradecraft/tree/master/1%20Cyber%20Threat%20Intelligence%20and%20Requirements/Topics/03-Threat%20Intelligence%20Consumption)
   * [Sliding Scale of Cybersecurity]
   * [Consuming Intelligence for Different Goals]
   * [Enabling Other Teams with Intelligence]
-* [Positioning the Team to Generate Intelligence]
+* [Positioning the Team to Generate Intelligence](https://github.com/WeaveryHeavy/Threat-Intelligence-Tradecraft/tree/master/1%20Cyber%20Threat%20Intelligence%20and%20Requirements/Topics/04-Positioning%20the%20Team%20to%20Generate%20Intelligence)
   * [Building an Intelligence Team]
   * [Positioning the Team in the Organization]
   * [Prerequisites for Intelligence Generation]
-* [Planning and Direction (Developing Requirements)]
+* [Planning and Direction (Developing Requirements)](https://github.com/WeaveryHeavy/Threat-Intelligence-Tradecraft/tree/master/1%20Cyber%20Threat%20Intelligence%20and%20Requirements/Topics/05-Planning%20and%20Direction%20(Developing%20Requirements))
   * [Intelligence Requirements]
   * [Priority Intelligence Requirements]
   * [Beginning the Intelligence Lifecycle]
