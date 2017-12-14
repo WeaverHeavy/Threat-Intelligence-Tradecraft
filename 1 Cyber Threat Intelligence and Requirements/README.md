@@ -4,10 +4,10 @@ Cyber threat intelligence is a rapidly growing field. However, intelligence was 
 
 ## Exercises
 
-* [E1-Using Structured Analytical Techniques](https://github.com/WeaveryHeavy/Threat-Intelligence-Tradecraft/blob/master/1%20Cyber%20Threat%20Intelligence%20and%20Requirements/Exercises/E1-Using%20Structured%20Analytical%20Techniques.md)
-* [E2-Consuming Along the Sliding Scale]
-* [E3-Enriching and Understanding Limitations]
-* [E4-Strategic Threat Modeling]
+* [E01-Using Structured Analytical Techniques](https://github.com/WeaveryHeavy/Threat-Intelligence-Tradecraft/blob/master/1%20Cyber%20Threat%20Intelligence%20and%20Requirements/Exercises/E1-Using%20Structured%20Analytical%20Techniques.md)
+* [E02-Consuming Along the Sliding Scale](https://github.com/WeaveryHeavy/Threat-Intelligence-Tradecraft/blob/master/1%20Cyber%20Threat%20Intelligence%20and%20Requirements/Exercises/E2-Consuming%20Along%20the%20Sliding%20Scale)
+* [E03-Enriching and Understanding Limitations](https://github.com/WeaveryHeavy/Threat-Intelligence-Tradecraft/blob/master/1%20Cyber%20Threat%20Intelligence%20and%20Requirements/Exercises/E3-Strategic%20Threat%20Modeling.md)
+* [E04-Strategic Threat Modeling](https://github.com/WeaveryHeavy/Threat-Intelligence-Tradecraft/blob/master/1%20Cyber%20Threat%20Intelligence%20and%20Requirements/Exercises/E4-Enriching%20and%20Understanding%20Limitations.md)
 
 
 ## Topics
