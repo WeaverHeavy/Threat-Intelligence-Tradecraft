@@ -13,18 +13,18 @@ Cyber threat intelligence is a rapidly growing field. However, intelligence was 
 ## Topics
 
 * [Case-Study: Carbanak, "The Great Bank Robbery"]
-* [Understanding Intelligence]
+* [Understanding Intelligence](https://github.com/WeaveryHeavy/Threat-Intelligence-Tradecraft/tree/master/1%20Cyber%20Threat%20Intelligence%20and%20Requirements/Topics/01-Understanding%20Intelligence)
   * [Intelligence Lexicon and Definitions]
   * [Traditional Intelligence Cycle]
   * [Sherman Kent and Intelligence Tradecraft]
   * [Structured Analytical Techniques]
-* [Understanding Cyber Threat Intelligence]
+* [Understanding Cyber Threat Intelligence](https://github.com/WeaveryHeavy/Threat-Intelligence-Tradecraft/tree/master/1%20Cyber%20Threat%20Intelligence%20and%20Requirements/Topics/02-Understanding%20Cyber%20Threat%20Intelligence)
   * [Defining Threats]
   * [Understanding Risk]
   * [Cyber Threat Intelligence and Its Role]
   * [Expectation of Organizations and Analysts]
   * [Four Methods of Threat Detection]
-* [Threat Intelligence Consumption]
+* [Threat Intelligence Consumption](Threat-Intelligence-Tradecraft/1 Cyber Threat Intelligence and Requirements/Topics/04-Positioning the Team to Generate Intelligence/)
   * [Sliding Scale of Cybersecurity]
   * [Consuming Intelligence for Different Goals]
   * [Enabling Other Teams with Intelligence]
