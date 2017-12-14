@@ -1,20 +1,16 @@
-Overview
+# Overview
 
 A core component of intelligence analysis at any level is the ability to defeat biases and analyze information. The skills required to think critically are exceptionally important and can have an organization-wide or national-level impact. In this section, students will learn about logical fallacies and cognitive biases as well as how to defeat them. They will also learn about nation-state attribution, including when it can be of value and when it is merely a distraction. Students will also learn about nation-state-level attribution from previously identified campaigns and take away a more holistic view of the cyber threat intelligence industry to date. The class will finish with a discussion on consuming threat intelligence and actionable takeaways for students to make significant changes in their organizations once they complete the course.
 
-Exercises
+## Exercises
 
-Identifying Cognitive Biases in Media Reporting
+* [Identifying Cognitive Biases in Media Reporting]
+* [Analysis of Intelligence Reports]
+* [Capstone Exercise: Debating and Attributing Election  Influencing - Part 1]
+* [Capstone Exercise: Debating and Attributing Election Influencing - Part 2]
 
-Analysis of Intelligence Reports
 
-Capstone Exercise: Debating and Attributing Election Influencing - Part 1
-
-Capstone Exercise: Debating and Attributing Election Influencing - Part 2
-
-CPE/CMU Credits: 6
-
-Topics
+## Topics
 
 Logical Fallacies and Cognitive Biases
 Identifying and Defeating Bias

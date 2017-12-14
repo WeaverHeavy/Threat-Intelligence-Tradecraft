@@ -1,7 +1,7 @@
 #  **Threat Intelligence Tradecraft**
 ![alt text](https://imgur.com/zFiHJiZ.jpg "Banner")
 
-## Intent: 
+## Intent:
  * Create an opensource/free curriculum for learning threat intelligence tradecraft to include:
 
 >  * 1: Cyber Threat Intelligence and Requirements  
@@ -23,45 +23,41 @@
  * http://www.cyintanalysis.com/resources/
  * https://github.com/corumir/Practical-Tradecraft
  * https://github.com/hslatman/awesome-threat-intelligence
-# **Curriculum:** 
+# **Curriculum:**
 
 ### 1: Cyber Threat Intelligence and Requirements
- * [
- * [
- * [
- * [
- * [
+* [Using Structured Analytical Techniques]
+* [Consuming Along the Sliding Scale]
+* [Enriching and Understanding Limitations]
+* [Strategic Threat Modeling]
 
 ### 2: Intrusion Analysis
- * [
- * [
- * [
- * [
- * [
+* [Using Structured Analytical Techniques]
+* [Consuming Along the Sliding Scale]
+* [Enriching and Understanding Limitations]
+* [Strategic Threat Modeling]
+
 
 
 ### 3: Collection Sources
- * [
- * [
- * [
- * [
- * [
+* [Open-Source Intelligence and Domain Pivoting in DomainTools]
+* [Maltego Pivoting and Open-Source Intelligence]
+* [Sifting Through Massive Amounts of Open-Source Intelligence in RecordedFuture]
+* [TLS Certificate Pivoting]
+* [Storing Threat Data and Information in a Malware Information Sharing Platform (MISP)]
 
 
 ### 4: Analysis and Dissemination of Intelligence
- * [Link Analysis](http://infolab.stanford.edu/~ullman/mmds/ch5.pdf)
- * [
- * [
- * [
- * [
+* [Analysis of Competing Hypotheses]
+* [Visual Analysis in Maltego]
+* [The Rule of 2]
+* [YARA Rule Development]
+* [STIX Framework IOC Extraction and Development]
+* [Building a Campaign Heat Map]
 
 
 ### 5: Higher-Order Analysis and Attribution
- * [
- * [
- * [
- * [
- * [
-
-
-
+* [Identifying Cognitive Biases in Media Reporting]
+* [Analysis of Intelligence Reports]
+* [Capstone Exercise: Debating and Attributing Election  Influencing - Part 1]
+* [Capstone Exercise: Debating and Attributing Election Influencing - Part 2]

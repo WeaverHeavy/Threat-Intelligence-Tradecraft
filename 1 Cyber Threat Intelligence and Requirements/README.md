@@ -4,10 +4,10 @@ Cyber threat intelligence is a rapidly growing field. However, intelligence was 
 
 ## Exercises
 
-* Using Structured Analytical Techniques
-* Consuming Along the Sliding Scale
-* Enriching and Understanding Limitations
-* Strategic Threat Modeling
+* [Using Structured Analytical Techniques]
+* [Consuming Along the Sliding Scale]
+* [Enriching and Understanding Limitations]
+* [Strategic Threat Modeling]
 
 
 ## Topics
