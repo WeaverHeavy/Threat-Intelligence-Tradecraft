@@ -4,7 +4,7 @@ Cyber threat intelligence is a rapidly growing field. However, intelligence was 
 
 ## Exercises
 
-* [E1-Using Structured Analytical Techniques]
+* [E1-Using Structured Analytical Techniques](https://github.com/WeaveryHeavy/Threat-Intelligence-Tradecraft/blob/master/1%20Cyber%20Threat%20Intelligence%20and%20Requirements/Exercises/E1-Using%20Structured%20Analytical%20Techniques.md)
 * [E2-Consuming Along the Sliding Scale]
 * [E3-Enriching and Understanding Limitations]
 * [E4-Strategic Threat Modeling]

@@ -1,7 +1,7 @@
 #  **Threat Intelligence Tradecraft**
 ![alt text](https://imgur.com/zFiHJiZ.jpg "Banner")
 
-# Disclaimer!!!!!!: this is a work in progress and I am nowhere near done
+# Disclaimer!!!!!!g: this is a work in progress and I am nowhere near done
 ## Intent:
  * Create an opensource/free curriculum for learning threat intelligence tradecraft to include:
 
