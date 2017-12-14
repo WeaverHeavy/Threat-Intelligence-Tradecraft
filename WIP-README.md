@@ -1,5 +1,6 @@
-# Threat Intelligence Tradecraft
-# Intent: Create an opensource/free curriculum for learning threat intelligence tradecraft to include:
+## Threat Intelligence Tradecraft
+# Intent: 
+ * Create an opensource/free curriculum for learning threat intelligence tradecraft to include:
  * 1: Cyber Threat Intelligence and Requirements
  * 2: The Fundamental Skillset: Intrusion Analysis
  * 3: Collection Sources
