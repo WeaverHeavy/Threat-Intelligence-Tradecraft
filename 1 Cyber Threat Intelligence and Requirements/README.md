@@ -12,28 +12,28 @@ Cyber threat intelligence is a rapidly growing field. However, intelligence was 
 
 ## Topics
 
-Case-Study: Carbanak, "The Great Bank Robbery"
-Understanding Intelligence
-Intelligence Lexicon and Definitions
-Traditional Intelligence Cycle
-Sherman Kent and Intelligence Tradecraft
-Structured Analytical Techniques
-Understanding Cyber Threat Intelligence
-Defining Threats
-Understanding Risk
-Cyber Threat Intelligence and Its Role
-Expectation of Organizations and Analysts
-Four Methods of Threat Detection
-Threat Intelligence Consumption
-Sliding Scale of Cybersecurity
-Consuming Intelligence for Different Goals
-Enabling Other Teams with Intelligence
-Positioning the Team to Generate Intelligence
-Building an Intelligence Team
-Positioning the Team in the Organization
-Prerequisites for Intelligence Generation
-Planning and Direction (Developing Requirements)
-Intelligence Requirements
-Priority Intelligence Requirements
-Beginning the Intelligence Lifecycle
-Threat Modeling
+* [Case-Study: Carbanak, "The Great Bank Robbery"]
+* [Understanding Intelligence]
+  * [Intelligence Lexicon and Definitions]
+  * [Traditional Intelligence Cycle]
+  * [Sherman Kent and Intelligence Tradecraft]
+  * [Structured Analytical Techniques]
+* [Understanding Cyber Threat Intelligence]
+  * [Defining Threats]
+  * [Understanding Risk]
+  * [Cyber Threat Intelligence and Its Role]
+  * [Expectation of Organizations and Analysts]
+  * [Four Methods of Threat Detection]
+* [Threat Intelligence Consumption]
+  * [Sliding Scale of Cybersecurity]
+  * [Consuming Intelligence for Different Goals]
+  * [Enabling Other Teams with Intelligence]
+* [Positioning the Team to Generate Intelligence]
+  * [Building an Intelligence Team]
+  * [Positioning the Team in the Organization]
+  * [Prerequisites for Intelligence Generation]
+* [Planning and Direction (Developing Requirements)]
+  * [Intelligence Requirements]
+  * [Priority Intelligence Requirements]
+  * [Beginning the Intelligence Lifecycle]
+  * [Threat Modeling]
