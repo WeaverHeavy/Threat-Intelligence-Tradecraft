@@ -1,4 +1,4 @@
-# **Threat Intelligence Tradecraft**
+#  **Threat Intelligence Tradecraft**
 ![alt text](https://imgur.com/zFiHJiZ.jpg "Banner")
 
 ## Intent: 
@@ -25,22 +25,14 @@
  * https://github.com/hslatman/awesome-threat-intelligence
 # **Curriculum:** 
 
-## 1: Cyber Threat Intelligence and Requirements
+### 1: Cyber Threat Intelligence and Requirements
  * [
  * [
  * [
  * [
  * [
 
-## 2: The Fundamental Skillset: Intrusion Analysis
- * [
- * [
- * [
- * [
- * [
-
-
-## 3: Collection Sources
+### 2: The Fundamental Skillset: Intrusion Analysis
  * [
  * [
  * [
@@ -48,7 +40,15 @@
  * [
 
 
-## 4: Analysis and Dissemination of Intelligence
+### 3: Collection Sources
+ * [
+ * [
+ * [
+ * [
+ * [
+
+
+### 4: Analysis and Dissemination of Intelligence
  * [Link Analysis](http://infolab.stanford.edu/~ullman/mmds/ch5.pdf)
  * [
  * [
@@ -56,14 +56,12 @@
  * [
 
 
-## 5: Higher-Order Analysis and Attribution
+### 5: Higher-Order Analysis and Attribution
  * [
  * [
  * [
  * [
  * [
 
-
-> Written with [StackEdit](https://stackedit.io/).
 
 
