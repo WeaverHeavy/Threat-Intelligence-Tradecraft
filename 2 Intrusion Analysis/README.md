@@ -11,30 +11,29 @@ Intrusion analysis is at the heart of threat intelligence. It is a fundamental s
 
 ## Topics
 
-Primary Collection Source: Intrusion Analysis
-Intrusion Analysis as a Core Skillset
-Methods to Performing Intrusion Analysis
-Intrusion Kill Chain
-Kill Chain Courses of Action
-Passively Discovering Activity in Historical Data and Logs
-Detecting Future Threat Actions and Capabilities
-Denying Access to Threats
-Delaying and Degrading Adversary Tactics and Malware
-Kill Chain Deep Dive
-Scenario Introduction
-Notification of Malicious Activity
-Pivoting Off of a Single Indicator to Discover Adversary Activity
-Identifying and Categorizing Malicious Actions
-Using Network and Host-Based Data
-Interacting with Incident Response Teams
-Interacting with Malware Reverse Engineers
-Effectively Leveraging Requests for Information
-Handling Multiple Kill Chains
-Identifying Different Simultaneous Intrusions
-Managing and Constructing Multiple Kill Chains
-Linking Related Intrusions
-Collection Source: Malware
-Data from Malware Analysis
-Key Data Types to Analyze and Pivot On
-VirusTotal and Malware Parsers
-Identifying Intrusion Patterns and Key Indicators
+* [Primary Collection Source: Intrusion Analysis]()
+* [Intrusion Analysis as a Core Skillset]()
+* [Methods to Performing Intrusion Analysis]()
+* [Intrusion Kill Chain]()
+* [Passively Discovering Activity in Historical Data and Logs]()
+* [Detecting Future Threat Actions and Capabilities]()
+* [Denying Access to Threats]()
+* [Delaying and Degrading Adversary Tactics and Malware]()
+* [Kill Chain Deep Dive]()
+* [Scenario Introduction]()
+* [Notification of Malicious Activity]()
+* [Pivoting Off of a Single Indicator to Discover Adversary Activity]()
+* [Identifying and Categorizing Malicious Actions]()
+* [Using Network and Host-Based Data]()
+* [Interacting with Incident Response Teams]()
+* [Interacting with Malware Reverse Engineers]()
+* [Effectively Leveraging Requests for Information]()
+* [Handling Multiple Kill Chains]()
+* [Identifying Different Simultaneous Intrusions]()
+* [Managing and Constructing Multiple Kill Chains]()
+* [Linking Related Intrusions]()
+* [Collection Source: Malware]()
+* [Data from Malware Analysis]()
+* [Key Data Types to Analyze and Pivot On]()
+* [VirusTotal and Malware Parsers]()
+* [Identifying Intrusion Patterns and Key Indicators]()
