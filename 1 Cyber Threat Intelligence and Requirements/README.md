@@ -13,10 +13,10 @@ Cyber threat intelligence is a rapidly growing field. However, intelligence was 
 ## Topics
 
 * [Understanding Intelligence](https://github.com/WeaveryHeavy/Threat-Intelligence-Tradecraft/tree/master/1%20Cyber%20Threat%20Intelligence%20and%20Requirements/Topics/01-Understanding%20Intelligence)
-  * [Intelligence Lexicon and Definitions]
-  * [Traditional Intelligence Cycle]
-  * [Sherman Kent and Intelligence Tradecraft]
-  * [Structured Analytical Techniques]
+  * [Intelligence Lexicon and Definitions](https://github.com/WeaveryHeavy/Threat-Intelligence-Tradecraft/blob/master/1%20Cyber%20Threat%20Intelligence%20and%20Requirements/Topics/01-Understanding%20Intelligence/01-Intelligence%20Lexicon%20and%20Definitions.pdf)
+  * [Traditional Intelligence Cycle](https://github.com/WeaveryHeavy/Threat-Intelligence-Tradecraft/blob/master/1%20Cyber%20Threat%20Intelligence%20and%20Requirements/Topics/01-Understanding%20Intelligence/02-Traditional%20Intelligence%20Cycle.pdf)
+  * [Intelligence Tradecraft](https://github.com/WeaveryHeavy/Threat-Intelligence-Tradecraft/blob/master/1%20Cyber%20Threat%20Intelligence%20and%20Requirements/Topics/01-Understanding%20Intelligence/03-Intelligence%20Tradecraft.pdf)
+  * [Structured Analytical Techniques](https://github.com/WeaveryHeavy/Threat-Intelligence-Tradecraft/blob/master/1%20Cyber%20Threat%20Intelligence%20and%20Requirements/Topics/01-Understanding%20Intelligence/04-Structured%20Analytical%20Techniques.pdf)
 * [Understanding Cyber Threat Intelligence](https://github.com/WeaveryHeavy/Threat-Intelligence-Tradecraft/tree/master/1%20Cyber%20Threat%20Intelligence%20and%20Requirements/Topics/02-Understanding%20Cyber%20Threat%20Intelligence)
   * [Defining Threats]
   * [Understanding Risk]
