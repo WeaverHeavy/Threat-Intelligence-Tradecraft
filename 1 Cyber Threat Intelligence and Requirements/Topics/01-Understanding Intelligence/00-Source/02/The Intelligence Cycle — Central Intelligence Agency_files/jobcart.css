@@ -1,0 +1,635 @@
+@font-face{
+  font-family:'ocramedium';
+  src:url('../fonts/ocra-webfont.eot');
+  src:url('../fonts/ocra-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/ocra-webfont.woff') format('woff'),
+    url('../fonts/ocra-webfont.ttf') format('truetype'),
+    url('../fonts/ocra-webfont.svg#ocramedium') format('svg');
+  font-weight:normal;
+  font-style:normal;
+}
+
+
+/*************** BASIC STRUCTURE & GENERIC ***************/
+
+.no-js-message, .no-js-message h4 {
+	font-style:italic;
+	color:#501d1d;
+}
+.no-js-message {
+	margin-bottom:1em;
+}
+.in-cart-message  {
+	display:inline-block;
+	height:32px;
+	line-height: 32px;
+	color: #fff;
+	font-weight: bold;
+	background:#6a6a6a;
+	border: 1px solid #000;
+	padding: 0 10px;
+	text-decoration: none;
+}
+.in-cart-message:link, .in-cart-message:visited, .in-cart-message:hover, .in-cart-message:active {
+    color: #fff;
+    font-size: 1em;
+}
+.add-to-job-cart-placeholder, .add-to-job-cart-placeholder-2 {
+	margin:1em 0;
+}
+
+/*************** JOB SHELF/DESCRIPTION PAGE ***************/
+.simpleCart_shelfItem {
+	float:left;
+}
+.simpleCart_shelfItem .item_price {
+	font-style:italic;
+}
+.action-note {
+	color:#991f1f;
+	font-size:.8em;
+	margin-left:1.1em;
+}
+.item_hrecid, .item_url {
+	display:none;
+}
+.add-to-job-cart-button {
+	display:inline-block;
+	width:191px;
+	height:32px;
+	background-image:url(../images/jobcart/button-add-to-job-cart.gif);
+}
+.remove-background {
+	background-image:0;
+}
+
+/*************** JOB CART PAGE ***************/
+.simpleCart_items {
+	clear:both;
+	padding:.6em 0 2em;
+}
+.itemContainer {
+	clear:both;
+	margin:.8em 0 0 0;
+}
+.itemRemove {
+	float:left;
+	white-space:pre;
+	overflow:hidden;
+	margin-left:1em;
+}
+.itemRemove a {
+	display:block;
+	width:60px;
+	height:19px;
+}
+.itemRemove a:link, .itemRemove a:visited {
+	background:url(../images/jobcart/button-remove-job-sprite.png) no-repeat left 0;
+}
+.itemRemove a:hover, .itemRemove a:active, .itemRemove a:focus {
+	background-position:left -57px;
+}
+.itemName {
+	float:left;
+	white-space:pre;
+	overflow:hidden;
+	padding:0;
+	margin:.15em 0 0 .6em;
+	color:#1d355f;
+}
+.itemName a:link, .itemName a:visited, .itemName a:hover, .itemName a:active {
+	color:#1d355f;
+	font-size:0.9375em;
+	font-family:Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-weight: bold;
+	text-decoration: none;
+}
+.itemName a:hover, .itemName a:active {
+	text-decoration: underline;
+}
+#cart-container {
+	border:1px solid #acacac;
+	min-height:10em;
+	background: url(../images/jobcart/background-job-cart-main.jpg) repeat-x bottom;
+	margin-top:1.5em;
+	margin-bottom:1.5em;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+#cart-container-main {
+	clear:both;
+	background-image: -ms-linear-gradient(top, #fefefe 75%, #cdd7e4 100%);/* IE10 Consumer Preview */ 
+	background-image: -moz-linear-gradient(top, #fefefe 75%, #cdd7e4 100%);/* Mozilla Firefox */ 
+	background-image: -o-linear-gradient(top, #fefefe 75%, #cdd7e4 100%);/* Opera */ 
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(75, #fefefe), color-stop(1, #cdd7e4));/* Webkit (Safari/Chrome 10) */ 
+	background-image: -webkit-linear-gradient(top, #fefefe 75%, #cdd7e4 100%);/* Webkit (Chrome 11+) */ 
+	background-image: linear-gradient(to bottom, #fefefe 75%, #cdd7e4 100%);/* W3C Markup, IE10 Release Preview */ 
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefefe', endColorstr='#cdd7e4',GradientType=0 ); /* IE6-8 */
+	border-radius: 0 0 10px 10px;
+	-moz-border-radius: 0 0 10px 10px;
+	-webkit-border-radius: 0 0 10px 10px;
+}
+#cart-container-header {
+	border-bottom:1px solid #acacac;
+	padding:.45em 0;
+	position:relative;
+	width:100%;
+	background-color:#cdd7e4;
+	background-image: -ms-linear-gradient(top, #fefefe 0%, #cdd7e4 100%);/* IE10 Consumer Preview */ 
+	background-image: -moz-linear-gradient(top, #fefefe 0%, #cdd7e4 100%);/* Mozilla Firefox */ 
+	background-image: -o-linear-gradient(top, #fefefe 0%, #cdd7e4 100%);/* Opera */ 
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #fefefe), color-stop(1, #cdd7e4));/* Webkit (Safari/Chrome 10) */ 
+	background-image: -webkit-linear-gradient(top, #fefefe 0%, #cdd7e4 100%);/* Webkit (Chrome 11+) */ 
+	background-image: linear-gradient(to bottom, #fefefe 0%, #cdd7e4 100%);/* W3C Markup, IE10 Release Preview */ 
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefefe', endColorstr='#cdd7e4',GradientType=0 ); /* IE6-8 */
+	border-radius: 10px 10px 0 0;
+	-moz-border-radius: 10px 10px 0 0;
+	-webkit-border-radius: 10px 10px 0 0;
+}
+.continue-job-search {
+	float:left;
+	margin:0 0 1em 1em;
+}
+.apply-now {
+	float:right;
+	margin:0 1em 1em;
+}
+.qib-heading {
+	color:#7d7d7d;
+	font-size:0.75em;
+	font-family:Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-weight:bold;
+	float:right;
+	overflow:visible;
+}
+.qib-description {
+	color:#7d7d7d;
+	font-size:0.75em;
+	font-family:Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-style:italic;
+	float:right;
+	clear:right;
+}
+#qib-descriptor-group {
+	float:right;
+	margin:0 .4em 0 0;
+	padding:0;
+	line-height:1.1
+}
+#cart-container-header .quantity-indicator-block {			/* override for job cart page */
+	float:right;
+	margin-right:.45em;
+}
+#cart-container-header .quantity-indicator-progressblock {	/* override for job cart page heading section */
+	float:right;
+	margin-right:.45em;
+}
+#cart-container-header-heading {
+	position:absolute;
+	bottom:-6px;
+	left:-1px;
+	width:263px;
+	height:54px;
+	
+}
+#cart-container-header-heading h2 {
+	color:#333;
+	padding:0;
+	margin:.5em 0 0 1.2em;
+	float:left;
+	font-size:1.375em;
+	font:1.375em 'ocramedium', Arial, Helvetica, sans-serif;
+	text-transform:uppercase;
+	letter-spacing:2px;
+	line-height:1.8;
+}
+#cart-container-header-heading img {
+	margin:.8em 0 0 2.8em;
+	float:left;
+}
+.plain_x > p {
+	color:#646464;
+}
+.plain_x > h3 {
+	padding-top:2em;
+	font-size:1.15em;
+	font-family:Arial, "Helvetica Neue", Helvetica, sans-serif;
+	color:#646464;
+}
+.plain_x > h4 {
+	font-size:1em;
+	font-family:Arial, "Helvetica Neue", Helvetica, sans-serif;
+	color:#646464;
+}
+.emph {
+	font-weight:bold;
+}
+.quantity-indicator-progressblock {
+	/*width:140px;*/
+	width:90%;
+	height:23px;
+	margin:0.2em auto 0.1em;
+	/*new css */
+	border: 1px solid #adb2b6;
+	-moz-border-radius: 25px;
+	-webkit-border-radius: 25px;
+	border-radius: 25px;
+	-webkit-box-shadow: inset 0 5px 5px 0 rgba(0,0,0,0.2);
+	-moz-box-shadow   : inset 0 5px 5px 0 rgba(0,0,0,0.2);
+	box-shadow        : inset 0 5px 5px 0 rgba(0,0,0,0.2);
+}
+
+#cart-container-header .quantity-indicator-progressblock{
+	width: 45%;
+}
+
+
+
+.quantity-indicator-progressblock > span{
+	display: block;
+	height: 100%;
+	position: relative;
+	overflow: hidden;
+	float: left;
+	-moz-border-radius: 25px;
+	-webkit-border-radius: 25px;
+	border-radius: 25px;
+	background-color: #13284a;
+	background-image: -webkit-gradient(
+	  linear,
+	  left bottom,
+	  left top,
+	  color-stop(0, #13284a),
+	  color-stop(1, #36507e)
+	 );
+	background-image: -webkit-linear-gradient(
+	  center bottom,
+	  #13284a 37%,
+	  #36507e 69%
+	 );
+	background-image: -moz-linear-gradient(
+	  center bottom,
+	  #13284a 37%,
+	  #36507e 69%
+	 );
+	background-image: -ms-linear-gradient(
+	  center bottom,
+	  #13284a 37%,
+	  #36507e 69%
+	 );
+	background-image: -o-linear-gradient(
+	  center bottom,
+	  #13284a 37%,
+	  #36507e 69%
+	 );
+	 width: 0;
+	-webkit-box-shadow: inset 5px 5px 5px 5px rgba(58,80,126,0.2);
+	-moz-box-shadow   : inset 5px 5px 5px 5px rgba(58,80,126,0.2);
+	box-shadow        : inset 5px 5px 5px 5px rgba(58,80,126,0.2);
+}
+.quantity-indicator-progress-1 > span {
+	width: 25%;
+}
+.quantity-indicator-progress-2 > span {
+	width: 50%;
+}
+.quantity-indicator-progress-3 > span {
+	width: 75%;
+}
+.quantity-indicator-progress-4 > span {
+	width: 100%;
+}
+p.job-cart-instructions {
+	margin-top:1em;
+}
+
+/*************** JOB CART QUANTITY INDICATOR COMPONENT ***************/
+.quantity-indicator-block-container {
+	/*width:12em;*/
+	width:100%;
+	padding:0;
+	margin:0;
+	position:relative;
+}
+.quantity-indicator-block {
+	display:inline-block;
+	padding:0;
+	margin:0 auto;
+	float:left;
+}
+.qi-section-1 {
+	/*width:160px;*/
+	width:100%;
+	padding:0;
+	/*margin:1.5em 0;*/
+	margin:0;
+	position:relative;
+}
+.qi-section-2 {				/* block containing number quads */
+}
+.quantity-indicator-block p {
+	padding:0;
+	margin:0;
+}
+.quantity-indicator-block-container .simpleCart_quantity {
+	color:#3e5579;
+	font-weight:bold;
+	display:inline-block;
+}
+.quantity-indicator {
+	color:#7d7d7d;
+	float:left;
+	border:1px solid #aeaeae;
+	width:2.92em;
+	height:1.5em;
+	text-align:center;
+	vertical-align:middle;
+	line-height:1.5;
+	background-color:#e1e1e1;
+}
+.quantity-indicator-on {
+	background-color:#7d7d7d;
+	color:#fff;
+}
+.qi-component-heading {
+    position:relative;
+	font:1em 'ocramedium', Arial, Helvetica, sans-serif;
+	text-transform:uppercase;
+	letter-spacing:1px;
+	color:#333333;
+	border-radius: 7px 7px 0 0;
+	-moz-border-radius: 7px 7px 0 0;
+	-webkit-border-radius: 7px 7px 0 0;
+	border: 1px solid #b8b8b8;
+	margin:0;
+	padding:.6em 0 .6em 1em;
+	background-color:#cdd7e4;
+	background-image: -ms-linear-gradient(top, #fefefe 0%, #cdd7e4 100%);/* IE10 Consumer Preview */ 
+	background-image: -moz-linear-gradient(top, #fefefe 0%, #cdd7e4 100%);/* Mozilla Firefox */ 
+	background-image: -o-linear-gradient(top, #fefefe 0%, #cdd7e4 100%);/* Opera */ 
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #fefefe), color-stop(1, #cdd7e4));/* Webkit (Safari/Chrome 10) */ 
+	background-image: -webkit-linear-gradient(top, #fefefe 0%, #cdd7e4 100%);/* Webkit (Chrome 11+) */ 
+	background-image: linear-gradient(to bottom, #fefefe 0%, #cdd7e4 100%);/* W3C Markup, IE10 Release Preview */ 
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefefe', endColorstr='#cdd7e4',GradientType=0 ); /* IE6-8 */
+}
+.qi-component-progress {
+	border-right:1px solid #b8b8b8;
+	border-left:1px solid #b8b8b8;
+	text-align:center;
+	padding:.6em 0;
+	background-color:#e5e7e9;
+	background-image: -ms-linear-gradient(top, #fefefe 0%, #e5e7e9 100%);/* IE10 Consumer Preview */ 
+	background-image: -moz-linear-gradient(top, #fefefe 0%, #e5e7e9 100%);/* Mozilla Firefox */ 
+	background-image: -o-linear-gradient(top, #fefefe 0%, #e5e7e9 100%);/* Opera */ 
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #fefefe), color-stop(1, #e5e7e9));/* Webkit (Safari/Chrome 10) */ 
+	background-image: -webkit-linear-gradient(top, #fefefe 0%, #e5e7e9 100%);/* Webkit (Chrome 11+) */ 
+	background-image: linear-gradient(to bottom, #fefefe 0%, #e5e7e9 100%);/* W3C Markup, IE10 Release Preview */ 
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefefe', endColorstr='#e5e7e9',GradientType=0 ); /* IE6-8 */
+}
+.qi-component-body {
+	font-size:0.9230769230769231em;
+	font-family:Arial, "Helvetica Neue", Helvetica, sans-serif;
+	color:#333;
+	padding:.8em .3em .6em .5em;
+	border:1px solid #b8b8b8;
+	text-align:center;
+	background-color:#e5eaf2;
+	background: url("../images/jobcart/qi-default-gradient-background.png") repeat-x scroll bottom transparent;
+	background-image: -ms-linear-gradient(top, #fefefe 0%, #e5eaf2 100%);/* IE10 Consumer Preview */ 
+	background-image: -moz-linear-gradient(top, #fefefe 0%, #e5eaf2 100%);/* Mozilla Firefox */ 
+	background-image: -o-linear-gradient(top, #fefefe 0%, #e5eaf2 100%);/* Opera */ 
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #fefefe), color-stop(1, #e5eaf2));/* Webkit (Safari/Chrome 10) */ 
+	background-image: -webkit-linear-gradient(top, #fefefe 0%, #e5eaf2 100%);/* Webkit (Chrome 11+) */ 
+	background-image: linear-gradient(to bottom, #fefefe 0%, #e5eaf2 100%);/* W3C Markup, IE10 Release Preview */ 
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefefe', endColorstr='#e5eaf2',GradientType=0 ); /* IE6-8 */
+	border-radius: 0 0 7px 7px;
+	-moz-border-radius: 0 0 7px 7px;
+	-webkit-border-radius: 0 0 7px 7px;
+
+}
+.qi-component-body a:link, .qi-component-body a:visited, .qi-component-body a:hover, .qi-component-body a:active {
+	color:#7d7d7d;
+}
+.qi-shopping-cart-icon {
+	position:absolute;
+	left:58%;
+	top:27%;
+	display:inline-block;
+	width:15px;
+	height:17px;
+	background: url("../images/jobcart/iconshoppingcart.png") no-repeat transparent;
+}
+.job-cart-shopping-cart-icon {
+	display:inline-block;
+	float: left;
+	margin: 12px 0 0 3.5em;
+	width:24px;
+	height:29px;
+	background: url("../images/jobcart/jobcartheaderheadingcart.png") no-repeat transparent;
+}
+.view-cart-button {
+	color:#2a446a;
+	font-weight:bold;
+	width:7em;
+	text-align:center;
+	height:3em;
+	margin:.8em auto;
+	background-color:#e7ecf3;
+	border:1px solid #8092b1;
+}
+.view-cart-button a {
+	display:block;
+	height:3em;
+	line-height:3;
+	text-decoration:none;
+}
+.view-cart-button a:link, .view-cart-button a:visited {
+	color:#2a446a;
+}
+.view-cart-button a:hover, .view-cart-button a:active {
+	text-decoration:none;
+	background-color:#fefefe;
+}
+.quantity-indicator-progressblock-description {
+	font-size:.9em;
+	font-style:italic;
+	color:#7d7d7d;
+}
+.corner-chop {
+	display:inline-block;
+	height:10px;
+	width:31px;
+	background:url(../images/jobcart/deco-qi-component-heading-corner-chop.png) no-repeat;
+	position:absolute;
+	right:-1px;
+	top:-1px;
+}
+#qi-shopping-cart-icon {
+	margin-left:2.5em;
+	position:relative;
+	top:-.1em;
+}
+
+
+.send-to-friend {
+    height: 33px;
+	/* margin: 10px 0; */
+	margin-top: 0.7em;
+}
+
+.continue-job-search-button, 
+.apply-now-button, 
+.add-to-cart-button, 
+.send-to-friend a{
+	display:inline-block;
+	height:32px;
+	line-height: 32px;
+	color: #2F5DAB;
+	font-weight: bold;
+	background:#e7ecf3;
+	border: 1px solid #2F5DAB;
+	padding: 0 10px;
+	text-decoration: none;
+}
+	.continue-job-search-button:active,
+	.continue-job-search-button:hover,
+	.apply-now-button:active,
+	.apply-now-button:hover,
+	.add-to-cart-button:active,
+	.add-to-cart-button:hover,
+	.send-to-friend a:active,
+	.send-to-friend a:hover {
+		text-decoration: none;
+	}
+
+/* to match above button */
+.send-to-friend a{
+	padding: 0 12px;
+}
+
+.continue-job-search-button:active, .continue-job-search-button:hover, .continue-job-search-button:focus, .apply-now-button:active, .apply-now-button:hover, .apply-now-button:focus, .add-to-cart-button:active, .add-to-cart-button:hover, .add-to-cart-button:focus, .send-to-friend a:hover, .send-to-friend a:focus  {
+	background:#2F5DAB;
+	color: #e7ecf3;
+}
+.js-remove-item-span{
+	/* display: block; */
+	font-size: 1em;
+	overflow:hidden;
+}
+.js-remove-item-span a{
+	font-size: 1em;
+	text-decoration: none;
+	/* float: right; */
+}
+.item_remove {
+	/* display:block; */
+	margin:0 auto .5em;
+	width:9em;
+}
+
+#apply-button-2 .js-remove-item-span a{
+	text-decoration: none;
+	float: none;
+}
+#apply-button-2 .js-remove-item-span a:hover, #apply-button-2 .js-remove-item-span a:focus{
+	text-decoration: underline;
+}
+.js-remove-item-span a:hover, .js-remove-item-span a:focus{
+	text-decoration: underline;
+}
+.js-add-item-span {
+	display:block;
+	margin:0 auto;
+}
+
+.supplemental-full-message {
+	display:block;
+	margin:1em 0 0;
+}
+.message-cart-is-full {
+	font-style:italic;
+	display:block;
+	margin:0 2em 1em;
+}
+#apply-button-1 {
+    float:right;
+    margin:0;			/* default for Apply text to be seen with no js */
+    display:block;
+	margin-bottom:1em;
+	padding-bottom:1em;
+}
+#apply-button-1.apply-button-1 {
+	margin-left:1em;	/* an override for when js is enabled */
+}
+#apply-button-2 {
+	margin:1.5em 0;
+	width:10em;
+}
+
+/* Used to accessibly hide elements (display: none may cause issues with screen readers) */
+.wai, .js .script, .hide {
+	position: absolute;
+	top: 0;
+	left: -999em;
+	width: 0;
+	height: 0;
+	text-indent: -999em;
+}
+
+.nojobs{
+        background: url("../images/caution.png") no-repeat scroll 10px 10px #E9E9E9;
+    border: 1px solid #BABABA;
+    color: #333333;
+    font-weight: bold;
+    max-width: 310px;
+    padding: 7px 10px 10px 35px;
+}
+
+/*************** Media Query and Overides ****************/
+@media only screen and (max-width: 480px) {
+	.job-cart-shopping-cart-icon {
+		display: none;
+	}
+	.itemName {
+    float: none;
+    overflow: visible;
+    white-space: normal;
+	}
+
+	.itemRemove {
+		float: left;
+		margin: 0 1em;
+		overflow: hidden;
+		white-space: pre;
+	}
+}
+
+/* ==|== non-semantic helper classes ========================================
+   Please define your styles before this section.
+   ========================================================================== */
+
+/* For image replacement */
+.ir { display: block; border: 0; text-indent: -999em; overflow: hidden; background-color: transparent; background-repeat: no-repeat; text-align: left; direction: ltr; *line-height: 0; }
+.ir br { display: none; }
+
+/* Hide from both screenreaders and browsers: h5bp.com/u */
+.hidden { display: none !important; visibility: hidden; }
+
+/* Hide only visually, but have it available for screenreaders: h5bp.com/v */
+.visuallyhidden { border: 0; clip: rect(0 0 0 0); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; width: 1px; }
+
+/* Extends the .visuallyhidden class to allow the element to be focusable when navigated to via the keyboard: h5bp.com/p */
+.visuallyhidden.focusable:active, .visuallyhidden.focusable:focus { clip: auto; height: auto; margin: 0; overflow: visible; position: static; width: auto; }
+
+/* Hide visually and from screenreaders, but maintain layout */
+.invisible { visibility: hidden; }
+
+/* Contain floats: h5bp.com/q */
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { *zoom: 1; }
+.float-right { float: right; }
+
+
+
