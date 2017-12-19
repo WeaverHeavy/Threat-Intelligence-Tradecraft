@@ -13,10 +13,19 @@
 
  * Note: I plan on heavily modeling after/emulating content from commercially available courses
 
-## Goals:
+## Short Term Goals:
  * Utilize entirely free (as in beer) or OSS tools
- * Deliver via step by step guides and possibly create virtual environments/exercises to practice in
+ * Deliver via step by step guides, articles,presentations
  * ETA: ~June 2018 (no real idea when this will be done)
+ 
+## Long Term Goals:
+ * Develop Vagrantfile/VM for module exercises
+ * Develop MOOC format using openedX with tests
+ 
+## Super Long Term Goals:
+ * Host Website with MOOC
+ * Create booklet/document format to be used as a digital or printable portable guide
+ * Develop Videos (maybe)
 
  * Contact: If you would like to help me in this project please shoot an email to: labs@whi.io
 
