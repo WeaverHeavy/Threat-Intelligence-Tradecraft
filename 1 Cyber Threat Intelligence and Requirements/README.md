@@ -12,7 +12,6 @@ Cyber threat intelligence is a rapidly growing field. However, intelligence was 
 
 ## Topics
 
-* [Case-Study: Carbanak, "The Great Bank Robbery"]
 * [Understanding Intelligence](https://github.com/WeaveryHeavy/Threat-Intelligence-Tradecraft/tree/master/1%20Cyber%20Threat%20Intelligence%20and%20Requirements/Topics/01-Understanding%20Intelligence)
   * [Intelligence Lexicon and Definitions]
   * [Traditional Intelligence Cycle]
